@@ -9,9 +9,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <tr>
-                <td>Happy Hotel Reservation System</td>
-            </tr>
+            <asp:Table ID="Table1" runat="server" BorderStyle="Solid" BorderWidth="2" BorderColor="Black">
+                <asp:TableRow>
+                    <asp:TableHeaderCell BackColor="#CCFF99">Happy Hotel Reservation System</asp:TableHeaderCell>
+                    <asp:TableHeaderCell BackColor="#CCFF99"></asp:TableHeaderCell>
+                </asp:TableRow>
+            </asp:Table>
         </div>
     </form>
 </body>
