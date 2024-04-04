@@ -9,6 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <tr>
+                <td>Happy Hotel Reservation System</td>
+            </tr>
         </div>
     </form>
 </body>
